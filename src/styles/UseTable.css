@@ -1,0 +1,68 @@
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+th{
+    color: #fff;
+    font-weight: 600;
+    background-color: #FC5185;
+    padding: 10px;
+
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.footer{
+    display: flex;
+    background-color: #364f6b;
+    position: fixed;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    min-height: 40px;
+    align-items: center;
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.rows-per-page{
+    width: 50%;
+    padding-left: 10px;
+}
+
+.next-prev{
+    width: 50%;
+}
+
+.select{
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.btn{
+    padding: 0px 3px;
+    margin: 0px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 1px;
+    background: none;
+    border: 0;
+    color: #fff;
+}
+
+.pagination-container{
+    float: right;
+}
+
+.page{
+    margin-right: 20px;
+}
+
+.mgr-10{
+    margin-right: 10px;
+}

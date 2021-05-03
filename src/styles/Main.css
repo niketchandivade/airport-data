@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    background-color: #3FC1C9;
+    position: static;
+    width: 100%;
+    box-shadow: 0px 0px 5px silver;
+    color: #fff;
+    min-height: 56px;
+    align-items: center;
+}
+
+.value-filter {
+    width: 50%;
+}
+
+.search{
+    width: 50%;
+}
+
+.Checkbox{
+    margin: 10px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.input-text{
+    width: 80%;
+    padding: 10px;
+    height: 1.1876em;
+    border: 0;
+    border-radius: 4px;
+}
+
+.search-icon{
+    margin-bottom: -12px;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .value-filter, .search {
+      width: 100%;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .search{
+        padding-bottom: 10px;
+    }
+
+}
